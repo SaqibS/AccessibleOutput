@@ -60,7 +60,7 @@
             [DllImport("nvdaControllerClient32.dll")]
             internal static extern int nvdaController_testIfRunning();
 
-            [DllImport("nvdaControllerClient32.dll")]
+            [DllImport("nvdaControllerClient32.dll", CharSet = CharSet.Auto)]
             internal static extern int nvdaController_speakText(string text);
 
             [DllImport("nvdaControllerClient32.dll")]
@@ -72,7 +72,7 @@
             [DllImport("nvdaControllerClient64.dll")]
             internal static extern int nvdaController_testIfRunning();
 
-            [DllImport("nvdaControllerClient64.dll")]
+            [DllImport("nvdaControllerClient64.dll", CharSet = CharSet.Auto)]
             internal static extern int nvdaController_speakText(string text);
 
             [DllImport("nvdaControllerClient64.dll")]
