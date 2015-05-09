@@ -34,9 +34,12 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Speech" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IAccessibleOutput.cs" />
+    <Compile Include="AutoOutput.cs" />
+    <Compile Include="SapiOutput.cs" />
     <Compile Include="JawsOutput.cs" />
     <Compile Include="NvdaOutput.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
